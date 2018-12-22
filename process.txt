@@ -1,0 +1,21 @@
+1. try to read coockies from file
+	if exception => open window to log in
+					save coockies to local file
+
+2. load cookies to web driver
+3. Naviagate to the search URL
+3. Scroll dwon
+4. Wait for content to load
+5. detect next button (store the elemnt)
+6. Check if it is clickable
+		if no => last page
+7. Create an empty csv file 'profiles.csv'
+8. Repeat for each page the following (While not last page):
+		(Check next button again)
+	1. Grab the list of search items
+	2. for each item do the following:
+		1. Grab name, url, username ...
+		2. insert to 'profiles.csv'
+	3. check if not last page
+		=> if yes => click next button
+	4. wait for loading
