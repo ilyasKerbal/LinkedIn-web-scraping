@@ -2,7 +2,7 @@ certifi==2018.10.15
 chardet==3.0.4
 idna==2.7
 linkedin-scraper==2.2.0
-lxml==4.2.5
+lxml==4.6.5
 peewee==3.7.1
 requests==2.20.1
 selenium==3.141.0
